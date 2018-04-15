@@ -405,7 +405,7 @@ var zhongwenContent = {
                         window.getSelection().toString());
 
                     // http://tatoeba.org/eng/sentences/search?from=cmn&to=eng&query=%E8%BF%9B%E8%A1%8C
-                    var tatoeba = 'http://tatoeba.org/eng/sentences/search?from=cmn&to=eng&query=' + sel;
+                    var tatoeba = 'http://tratu.coviet.vn/hoc-tieng-trung/tu-dien/lac-viet/T-V/' + sel +'.html'
 
                     chrome.runtime.sendMessage({
                         type: 'open',
